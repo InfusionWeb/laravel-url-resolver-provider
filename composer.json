@@ -1,0 +1,40 @@
+{
+    "name": "infusionweb/laravel-url-resolver-provider",
+    "description": "Provides a Laravel 5 service provider and facade for URLResolver.php.",
+    "keywords": [
+        "laravel",
+        "PhpUrlResolver",
+        "URLResolver"
+    ],
+    "homepage": "https://github.com/infusionweb/laravel-url-resolver-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Russell Keppner",
+            "email": "russell.keppner@gmail.com",
+            "homepage": "https://github.com/rkeppner",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "mdf/php-url-resolver": "@dev"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "dev-master",
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "InfusionWeb\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
